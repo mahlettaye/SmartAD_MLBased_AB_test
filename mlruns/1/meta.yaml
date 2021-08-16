@@ -1,0 +1,4 @@
+artifact_location: file:///home/mahlet/10ac/Smart_Ad_AB_test/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Smart_ad

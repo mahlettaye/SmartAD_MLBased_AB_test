@@ -1,0 +1,35 @@
+2021-08-16 05:22:09,716:ERROR:Incorrect file path
+Traceback (most recent call last):
+  File "/home/mahlet/10ac/Smart_Ad_AB_test/scripts/helper_functions.py", line 12, in <module>
+    data = pd.read_csv('AdSmartABdata.csv')
+  File "/home/mahlet/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahlet/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/mahlet/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/mahlet/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/home/mahlet/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/home/mahlet/.local/lib/python3.8/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/home/mahlet/.local/lib/python3.8/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/home/mahlet/.local/lib/python3.8/site-packages/pandas/io/common.py", line 701, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'AdSmartABdata.csv'
+2021-08-16 05:40:11,444:ERROR:You have entered correct path
+NoneType: None
+2021-08-16 05:42:27,130:ERROR:You have entered correct path
+NoneType: None
+2021-08-16 05:54:51,338:ERROR:You have entered correct path
+NoneType: None
+2021-08-16 05:55:54,553:ERROR:You have entered correct path
+NoneType: None
+2021-08-16 05:57:27,982:ERROR:You have entered correct path
+NoneType: None
+2021-08-16 05:57:28,021:ERROR:You have entered correct path
+NoneType: None
+2021-08-16 05:57:28,021:ERROR:You have entered correct path
+NoneType: None

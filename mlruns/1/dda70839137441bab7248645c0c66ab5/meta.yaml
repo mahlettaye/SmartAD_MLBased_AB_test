@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mahlet/10ac/Smart_Ad_AB_test/mlruns/1/dda70839137441bab7248645c0c66ab5/artifacts
+end_time: 1629086905497
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: dda70839137441bab7248645c0c66ab5
+run_uuid: dda70839137441bab7248645c0c66ab5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1629086901514
+status: 3
+tags: []
+user_id: mahlet
