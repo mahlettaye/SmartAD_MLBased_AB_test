@@ -19,9 +19,6 @@ jobs:
       - uses: iterative/setup-cml@v1
       - name: Train model
 
-      # Runs a single command using the runners shell
-      - name: Train model
-        run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
       - name: Train model
@@ -34,4 +31,4 @@ jobs:
           cml-publish confusion_matrix.png --md >>report 
           
           cml-send-comment report.md
-          echo test, and deploy your project.
+    
