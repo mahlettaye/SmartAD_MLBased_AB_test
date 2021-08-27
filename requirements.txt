@@ -1,0 +1,9 @@
+setuptools
+sklearn
+pandas
+dvc[gdrive]
+
+matplotlib==3.4.2
+seaborn==0.11.1
+IPython==7.25.0
+mlflow==1.19.0
