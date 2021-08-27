@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import re
 import os
 
-from logger import log_writer
+from scripts.logger import log_writer
 
 def data_loader(path):
     
