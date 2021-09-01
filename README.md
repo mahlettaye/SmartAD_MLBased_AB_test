@@ -5,7 +5,7 @@
 For this project we have used kaggle dataset found here https://www.kaggle.com/c/rossmann-store-sales/data
 
 
-### Repository organiztion 
+### Repository organization 
 - .dvc 
     - Contains the  the implemntation od data version control output which is the result of our training dataset that passes through the DVC.
 - Notebook 
