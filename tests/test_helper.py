@@ -1,19 +1,32 @@
 import unittest
+import pandas as pd 
 
 import sys
-sys.path.insert(0, '/home/mahlet/10ac/Smart_Ad_AB_test/scripts/')
+sys.path.insert(0, '/home/mahlet/10ac/Smart_Ad_AB_test/')
+#from helper import duplicate_calculator,data_summary
+from scripts.model import data_spliter
 
-from helper import data_loader
 class TestSum(unittest.TestCase):
+    """
+		A class for unit-testing function in the helper.py file
+
+		Args:
+        -----
+			unittest.TestCase this allows the new class to inherit
+			from the unittest module
+	"""
     
-    def test_list_int(self):
+    def test_duplicate_calculator(self):
         """
-        Test that it can sum a list of integers
+        Test duplicate calculator function 
         """
-        
-        result = data_loader("data/AdSmartABdata.csv")
-        self.assertEqual(result, "data/AdSmartABdata.csv")
+        data= pd.read_csv("data/processed_data.csv")
+        result,result2 = data_spliter(data)
+
+        self.assertEqual(type(result), "pandas.core.frame.DataFrame", "result is not dataframe") 
+    
+    
 
 if __name__ == '__main__':
-    # to run test terminal python3 -m unittest discover -v -s . -p "*Test_*.py"
+    # to run test terminal python3 -m unittest discover -v -s . -p "*test_*.py"
     unittest.main()
