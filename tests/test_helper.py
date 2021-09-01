@@ -8,12 +8,12 @@ from scripts.model import data_spliter
 
 class TestSum(unittest.TestCase):
     """
-		A class for unit-testing function in the helper.py file
+	A class for unit-testing function in the helper.py file
 
-		Args:
+	Args:
         -----
-			unittest.TestCase this allows the new class to inherit
-			from the unittest module
+	   unittest.TestCase this allows the new class to inherit
+	   from the unittest module
 	"""
     
     def test_duplicate_calculator(self):
