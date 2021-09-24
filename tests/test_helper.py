@@ -16,7 +16,7 @@ class TestSum(unittest.TestCase):
 	   from the unittest module
 	"""
     
-    def test_duplicate_calculator(self):
+    def test_data_path(self):
         """
         Test duplicate calculator function 
         """
